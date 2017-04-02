@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<fx:root type="javafx.scene.layout.Pane" fx:id="this" xmlns:fx="http://javafx.com/fxml" visible="false">
+   <ImageView fx:id="playerCard1" preserveRatio="true"
+              rotate="352" fitWidth="${this.maxWidth}" fitHeight="${this.maxHeight}" />
+   <ImageView fx:id="playerCard2" preserveRatio="true" layoutX="${this.width * 0.34}"
+              rotate="8" fitWidth="${this.maxWidth}" fitHeight="${this.maxHeight}" />
+</fx:root>

@@ -1,0 +1,13 @@
+This meeting:
+-- AI, can potentially use open source code for poker AI to integrate into our project
+-- Everyone needs to learn the basics of MVC(Model-view-controller)
+-- Discussed how we'll implement a network version of our poker-game
+-- Zohar will create a model for how the Network-version of our pokergame will work
+-- Need a licence-file for our project our source code can refer to
+-- Should remember to write some javadoc for our classes and methods
+-- Need to implement a statistics file
+-- If anyone needs to discuss how to proceed with the project we can meet on faklab 3
+
+For next meeting:
+-- assign tasks
+-- Potentially go through our code

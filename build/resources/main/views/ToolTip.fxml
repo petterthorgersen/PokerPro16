@@ -1,0 +1,3 @@
+<?import javafx.scene.layout.Pane?>
+<fx:root type="javafx.scene.layout.Pane" xmlns:fx="http://javafx.com/fxml" onMouseClicked="#close">
+</fx:root>

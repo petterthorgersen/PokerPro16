@@ -1,0 +1,45 @@
+Minutes by: Zohar Malamant
+
+- User Requirements Specification By: Petter Thorgersen
+-- Explain that 'Game' is a single of poker and not the program itself. 'Register' refers to register for a single match.
+-- 'Learn poker' and 'For fun' add this as a non-functional user req?
+-- "Receive Chips"... when joining a game.
+-- "Winner can be declared" functional
+-- UTG, CO, BTN, SB, BB positions and knowing what position the player has. (functional)
+-- "Initiate a game with AI" --> "Add AI to the game" (Organiser or player?)
+-- Decided to instead "Initialise a game with AI" and "Initialise a network game" as separate features.
+
+- Happy Path By: Åsmund Hammer
+-- User --> Player
+-- Meta:
+--- "Primary Actor": Player who also acts as Organiser
+--- "Secondary Actor": None
+--- "Stakeholders": Player
+--- "Precondition":
+--- "Success Guarantee":
+-- Fix grammar
+-- A new version was uploaded
+-- Happy path is Offline game against bots
+-- Alternative: Player doesn't have enough money to call
+
+- Domain Model By: Svein Høgemo
+-- Hand should be under Player
+-- Player should have isOrganiser, isAI, isDealer, amountOfChips attribute
+-- Board should pot attribute
+-- Remove Organiser and Chip class.
+
+- To ask Gunnar
+-- What does 'game' and 'register' mean?
+-- Add AI, organiser or player?
+-- Add TA stuff to User Req?
+-- Use case story for Spectator, Organiser and Online game?
+
+- Changed UI toolkit from swing to javafx 
+
+- For neste gang
+-- Snakke litt mindre om småe detaljer
+-- Minutes skal være ordleder
+-- Folk bør generelt holde munn
+-- Ta med ertepose, kanskje?
+-- Ta pause etter 45 min for 15 min
+-- Last ned slack app for notifications

@@ -1,0 +1,22 @@
+Minutes 05 april 14:15
+
+Feedback previous minutes:
+-Could be shorter.
+-Too much chat about details not relevant to most members.
+
+Known errors from iteration 1:
+-Build error when tests included.
+-Feedback from teaching assistant.
+
+Things to get better at:
+-Communication.
+-Delegation of work.
+-
+
+Tasks to do:
+-Backlog.
+-Game statistics (Andreas).
+-Plan network protocol.
+-The ones who made documentation for last sprint, updates what they did for this iteration.
+-Awaiting to assign the new diagram until a later meeting.
+-The AI has to be updated.

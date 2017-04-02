@@ -1,0 +1,309 @@
+.background {
+    -fx-background-image: url("/images/ui/floorTile.png");
+    -fx-background-size: 400px;
+    -fx-background-repeat: repeat;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font: 20px "sans-serif";
+    -fx-background-color: rgba(0, 153, 255, 0.15);
+    -fx-background-radius: 13px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 3px;
+    -fx-border-color: rgba(0, 122, 204, 0.8);
+}
+
+.button:hover {
+    -fx-background-color: rgba(0, 153, 255, 0.4);
+}
+
+.button:pressed {
+    -fx-background-color: transparent;
+}
+
+.buttonMenu {
+    -fx-hgap: 10px;
+    -fx-alignment: center;
+}
+
+.choice-box {
+    -fx-position-shape: false;
+    -fx-text-fill: #0099ff;
+    -fx-font-weight: bold;
+    -fx-font: 20px "sans-serif";
+    -fx-background-color: #333333;
+    -fx-background-radius: 15px;
+    -fx-effect: innershadow(gaussian, #595959, 2, 0, 0, 4);
+}
+
+.choice-box .context-menu {
+    -fx-position-shape: false;
+    -fx-text-fill: #0099ff;
+    -fx-font-weight: bold;
+    -fx-font: 20px "sans-serif";
+    -fx-background-color: #333333;
+    -fx-background-radius: 15px;
+    -fx-effect: innershadow(gaussian, #595959, 2, 0, 0, 4);
+}
+
+.fancytext {
+    -fx-font: 100px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
+
+
+.hbox {
+    -fx-background-color: black;
+    -fx-alignment: center-left;
+    -fx-padding: 10px;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font: 20px "sans-serif";
+}
+.menu {
+    -fx-text-color: black;
+}
+
+.pane {
+    -fx-padding: 8px;
+    -fx-background-color: black;
+    -fx-background-radius: 10px;
+}
+
+.paneActive {
+    -fx-padding: 8px;
+    -fx-background-color: black;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #0099ff, 20, 0, 0, 0);
+}
+
+.root {
+    -fx-background-image: url("/images/ui/background.png");
+    -fx-background-repeat: repeat;
+}
+.rightMenu {
+    -fx-background-color: black;
+    -fx-padding: 15;
+    -fx-spacing: 15;
+}
+
+.slider {
+    -fx-color: #009933;
+}
+
+.slider .thumb {
+    -fx-background-color: #0099ff;
+    -fx-size: 10;
+    -fx-effect: innershadow(gaussian, #33adff, 2, 0, 0, 4);
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #33adff;
+}
+
+.slider .thumb:pressed {
+    -fx-background-color: #007acc;
+}
+
+.slider .track {
+    -fx-background-color: #404040;
+    -fx-effect: innershadow(gaussian, #595959, 2, 0, 0, 3);
+}
+
+.statusBox {
+    -fx-background-color: #007acc;
+}
+
+.text-field {
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 15px;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-alignment: center;
+    -fx-prompt-text-fill: rgba(255,255,255,0.5);
+}
+
+.text-field:focused {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-alignment: center;
+    -fx-prompt-text-fill: rgba(255,255,255,0.5);
+    -fx-effect: dropshadow(three-pass-box, #0099ff, 10, 0, 0, 0);
+}
+
+
+.vbox {
+    -fx-background-color: transparent;
+    -fx-vgap: 10px;
+}
+.menuButton {
+    -fx-background-color: black;
+    -fx-min-width: 60px;
+    -fx-min-height: 60px;
+    -fx-max-height: 60px;
+    -fx-max-width: 60px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 50px;
+}
+
+.menuButton:selected {
+    -fx-background-color: transparent;
+}
+.menuButton:hover {
+    -fx-background-color: rgba(0, 153, 255, 0.4);
+}
+.lobby {
+    -fx-padding: 10px;
+    -fx-background-radius: 20px;
+    -fx-background-color: black;
+}
+
+.lobbyTiles {
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+    -fx-background-color: #1a1a1a;
+    -fx-background-size: 150px;
+    -fx-background-repeat: repeat;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: rgba(0,0,0,0.5);
+}
+
+.scroll-pane {
+    -fx-background-color: rgba(0,0,0.0.5);
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+}
+.scroll-bar:vertical {
+    -fx-background-color: #333333;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #0099ff;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #33adff;
+}
+
+.scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: #007acc;
+}
+
+.text-area {
+    -fx-text-alignment: left;
+    -fx-text-fill: #33adff;
+    -fx-background-color: black;
+}
+.text-area .content {
+    -fx-background-color: transparent;
+    -fx-border-width: 0px;
+}
+
+.check-box .box {
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 2px;
+}
+.check-box .box:hover {
+    -fx-background-color: #333333;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #33adff;
+}
+
+.statistics {
+    -fx-padding: 10px;
+    -fx-background-color: black;
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(gaussian, black, 50, 0.08, 0, 0);
+}
+
+.communityCardsBox {
+    -fx-spacing: 10;
+}
+
+.chatField {
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 15px;
+    -fx-text-fill: #33adff;
+    -fx-alignment: center-left;
+}
+.chatField:focused {
+    -fx-background-color: black;
+    -fx-alignment: center-left;
+    -fx-text-fill: #33adff;
+    -fx-effect: dropshadow(three-pass-box, #0099ff, 10, 0, 0, 0);
+}
+
+.createGame {
+    /*-fx-background-color: rgba(0, 153, 255, 0.15);*/
+}
+
+.createGame:hover {
+    -fx-border-radius: 10px;
+    -fx-border-width: 3px;
+    -fx-effect: innershadow(gaussian, #0099ff, 10, 2, 0, 0);;
+}
+.createGame:pressed {
+    -fx-background-color: rgba(0, 153, 255, 0.4);
+}
+.table {
+    /*-fx-background-color: rgba(0, 153, 255, 0.15);*/
+}
+
+.table:hover {
+    -fx-border-radius: 10px;
+    -fx-border-width: 3px;
+    -fx-effect: innershadow(gaussian, #0099ff, 3, 2, 0, 0);
+}
+.table:pressed {
+    -fx-effect: innershadow(gaussian, #007acc, 3, 2, 0, 0);
+}
+
+.progress-bar > .track {
+    -fx-text-box-border: black;
+    -fx-control-inner-background: red;
+    -fx-border-color: black;
+}
+.progress-bar > .bar {
+    -fx-background-color: black;
+    -fx-background-insets: 1 1 2 1;
+    -fx-padding: 0.30em;
+}
+.progress-bar {
+    -fx-background-color: black;
+    -fx-border-color: black;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+
+}
+.combo-box .list-cell:hover {
+    -fx-text-fill: #0099ff;
+}
+
+.combo-box-base {
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 0px;
+}
+
+.combo-box-base:hover {
+    -fx-effect: dropshadow(three-pass-box, #0099ff, 10, 0, 0, 0);
+}
+
+.combo-box .list-view{
+    -fx-background-color: #0099ff;
+}

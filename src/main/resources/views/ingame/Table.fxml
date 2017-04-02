@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.gruppe2.ui.javafx.ingame.CommunityCards?>
+<?import org.gruppe2.ui.javafx.ingame.ThisPlayerInfoBox?>
+<?import org.gruppe2.ui.javafx.PokerApplication?>
+<fx:root type="Pane" xmlns:fx="http://javafx.com/fxml"
+         prefWidth="${root.width}"
+         prefHeight="${root.height * 0.8}">
+    <fx:define>
+        <PokerApplication fx:factory="getRoot" fx:id="root" />
+    </fx:define>
+
+    <ImageView preserveRatio="true"
+               style="-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 50, 0.3, 10, 10);"
+               fitWidth="${root.width * 0.6}">
+        <Image url="/images/ui/PokertableWithLogo.png"/>
+    </ImageView>
+
+    <VBox fx:id="tableItemsBox">
+        <CommunityCards fx:id="communityCardsBox"/>
+        <Pot fx:id="pot"/>
+        <Label fx:id="nothing"/>
+        <Label fx:id="nothing2"/>
+    </VBox>
+
+    <ThisPlayerInfoBox fx:id="thisPlayer"/>
+</fx:root>

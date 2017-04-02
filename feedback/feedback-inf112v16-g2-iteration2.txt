@@ -1,0 +1,44 @@
+INF112 programming project iteration 2 - Feedback group 2
+=========================================================
+Note: The following refers to archive version: a9d53f3e60229cee679e8dfd6e7f895b278db236
+
+# Deliverables [38/45]
+- in the use case diagram: is "play against AI" = "Singleplayer" (not "heads up" but playing against >1 Player)?
+- new use case text for single player + extensions -> good!
+- I couldn't find an SSD for one of the alternative paths...
+- In the use case diagram it is a bit confusing to have three different types of players, which do not seem to be related to
+one another (does e.g. AIPlayer and/or GUIPlayer inherit from Player?). Some association/role names are missing
+- Some of these comments also apply to the Design model.
+-- Does the Player class have no (important) methods?
+-- How complex/important is the showdown evaluator class here? 
+
+# Code & Implementation [37/39]
+- All features of the current sprint are covered. However, sometimes there are some instabilities during gameplay, e.g.:
+-- chip bar for betting does not display correclty
+-- the player's bet is not shown (always zero - I assume it's just peanuts for Mr. Trump).
+
+
+# Project organization [10/10]
+- you have the biggest group so it is nice to see that you organize yourself in teams and try to include everyone. 
+- Make sure that after the last iteration everyone is up-to-date with the implementation of the latest game version (important for exam question)
+
+
+# Presentation [6/6]
+- Presentation was very good, maybe just a bit too long. Try to stick to the 10-15min (including Discussion)
+
+# general comments
+- Thanks for hinting at the delivery commit! ;)
+
+# Extra: +2P
+-- +1 for having a research & development team!
+-- cheatsheet and help log/player's chat
+-- nice game layout 
+
+
+# Total score #1: 93	
+
+# Total score #2: 85
+
+# Final score: 89
+
+

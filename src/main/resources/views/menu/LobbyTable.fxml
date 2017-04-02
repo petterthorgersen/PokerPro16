@@ -1,0 +1,18 @@
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root type="javafx.scene.layout.Pane" xmlns:fx="http://javafx.com/fxml" >
+    <StackPane fx:id="table" alignment="CENTER" styleClass="table" onMouseClicked="#joinTable">
+        <ImageView fx:id="tableImage" >
+            <Image url="/images/ui/LobbyTable.png" />
+        </ImageView>
+        <VBox alignment="CENTER">
+            <Label fx:id="name" text=""/>
+            <Label fx:id="players" text="1/8"/>
+        </VBox>
+    </StackPane>
+</fx:root>

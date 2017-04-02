@@ -1,0 +1,20 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ToggleButton?>
+<?import org.gruppe2.ui.javafx.PokerApplication?>
+<fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml"
+         stylesheets="/css/style.css" fx:id="rightMenu" alignment="CENTER_RIGHT">
+
+    <fx:define>
+        <PokerApplication fx:factory="getApplication" fx:id="app"/>
+    </fx:define>
+
+    <ToggleButton fx:id="showMenu" onAction="#showMenu" styleClass="menuButton"
+                  style="-fx-background-image: url(/images/ui/chip2.png)"/>
+    <VBox fx:id="innerBox" styleClass="rightMenu">
+        <Button fx:id="viewStatistics" text="View statistics" font="${app.bigFont}" onAction="#viewStatistics"/>
+        <Button fx:id="viewLobby" text="View lobby" font="${app.bigFont}" onAction="#viewLobby"/>
+        <Button fx:id="leaveTable" text="Leave table" font="${app.bigFont}" onAction="#leaveTable"/>
+    </VBox>
+
+</fx:root>

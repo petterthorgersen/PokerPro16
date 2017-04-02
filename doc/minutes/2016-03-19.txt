@@ -1,0 +1,11 @@
+Minutes 19.04.16
+
+ToDo:
+- Fix ram usage (related to flashing)
+- Save game settings in file
+- Implement old classes in the new event system
+- Master server
+- Protocol for creating new tables
+- Fix player position around the table
+- Button and blinds in GUI
+- Spectator functionality

@@ -1,0 +1,19 @@
+﻿
+
+
+* Blinds: Forkortelse for “blind bets”, som er de innsatsene som er tvunget før kortene er delt på bordet.
+* Small blind: Blind bet hvor spilleren som er small blind må legge en sum som innsats. Denne innsatsen kan variere fra spill til spill og kan øke gjennom selve spillet. Spiller til venstre for dealer.
+* Big blind: Samme som small blind bare med større tvunget innsats. Spiller til venstre for small blind. 
+* Button: Kallenavn for nåværende dealer.
+* Check: Man sier at man er med videre uten å legge inn større innsats. Dette er bare mulig hvis ingen andre har økt innsatsen samme runde.
+* Fold: Spiller kaster kortene, taper dermed automatisk, og satser ikke mer samme runde.
+* Call: Spiller legger inn tilsvarende innsats som forrige raise.
+* Raise: Spiller øker innsats, andre spillere må legge inn tilsvarende eller mer for å være med videre.
+* Preflop: Alt som gjøres før floppen.
+* Flop: Første tre kortene som blir som blir lagt på bordet face-up.
+* Fourth Street/Turn: Etter floppen hvor ett kort blir lagt face-down og neste kort face-up.
+* Fifth Street/River: Etter fourth street, og siste runde. Ett kort face-down og ett face-up. Siste innsats kan gjøres her.
+* All in: Spiller går inn med resten av chipsene.
+* Chips: Mynt enheten som brukes i poker.
+* Showdown: Spillerne viser kortene sine for å finne ut hvem som vinner potten.
+* Ante: Tvungen innsats uavhengig av blinds i starten av en runde før kort deles ut. Dette må forhandsbestemmes og det kan være 0.

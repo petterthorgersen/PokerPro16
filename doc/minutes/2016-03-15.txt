@@ -1,0 +1,7 @@
+Minutes:
+
+-- Some people shall work on documentation and some on coding. Its no point having all programming at the same time,
+to much merge conflicts.
+- Updates to how the current project works.
+- We`ve learned that we should use model control view and that we should be better to organize the work. 
+Someone did almost all the work.

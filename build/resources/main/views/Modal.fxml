@@ -1,0 +1,5 @@
+<?import javafx.scene.layout.StackPane?>
+<fx:root type="javafx.scene.layout.StackPane" xmlns:fx="http://javafx.com/fxml"
+        style="-fx-background-color: radial-gradient(center 50% 50%, radius 150%, rgba(0,0,0,0) 15%,rgba(0,0,0,1) 50%)"
+         onKeyPressed="#keyPressed" onMouseClicked="#close">
+</fx:root>

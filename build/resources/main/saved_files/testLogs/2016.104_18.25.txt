@@ -1,0 +1,76 @@
+╔══════════════════════════════════════════════════
+║ 13·04·2016
+║  18:25:01  »  #New Game#
+║  18:25:02  »     Stakes   
+║  18:25:02  »  Bank: ME Player
+║  18:25:02  »  Small Blind: 25
+║  18:25:02  »  Big Blind: 50
+║  18:25:02  »  Betting Round: 1
+║  18:25:02  »  Mario     : Raise 8    
+║  18:25:02  »  Anne      : Call
+║  18:25:03  »  McGyver   : Call
+║  18:25:04  »  ME Player : Call
+║  18:25:05  »  Mario     : Raise 8    
+║  18:25:05  »  Anne      : Call
+║  18:25:06  »  McGyver   : Call
+║  18:25:08  »  ME Player : Call
+║  18:25:08  »  Mario     : Check
+║  18:25:08  »  Betting Round: 2
+║  18:25:08  »  Mario     : Fold
+║  18:25:09  »  Anne      : Check
+║  18:25:09  »  McGyver   : Raise 7    
+║  18:25:12  »  ME Player : Call
+║  18:25:13  »  Anne      : Call
+║  18:25:13  »  McGyver   : Check
+║  18:25:13  »  Betting Round: 3
+║  18:25:13  »  Anne      : Check
+║  18:25:14  »  McGyver   : Raise 7    
+║  18:25:16  »  ME Player : Call
+║  18:25:17  »  Anne      : Call
+║  18:25:17  »  McGyver   : Check
+║  18:25:17  »  Betting Round: 4
+║  18:25:17  »  Anne      : Check
+║  18:25:18  »  McGyver   : Check
+║  18:25:21  »  ME Player : Check
+║  18:25:21  »  ME Player won the pot!
+║  18:25:21  »  Table Pot: 306
+╚══════════════════════════════════════════════════
+╔══════════════════════════════════════════════════
+║ 13·04·2016
+║  18:25:21  »  #New Game#
+║  18:25:21  »     Stakes   
+║  18:25:21  »  Bank: ME Player
+║  18:25:21  »  Small Blind: 25
+║  18:25:21  »  Big Blind: 50
+║  18:25:21  »  Betting Round: 1
+║  18:25:21  »  Anne      : Call
+║  18:25:22  »  McGyver   : Check
+║  18:25:40  »  ME Player : Call
+║  18:25:41  »  Mario     : Call
+║  18:25:41  »  Betting Round: 2
+║  18:25:41  »  Anne      : Check
+║  18:25:41  »  McGyver   : Check
+║  18:25:43  »  ME Player : Check
+║  18:25:43  »  Mario     : Check
+║  18:25:43  »  Betting Round: 3
+║  18:25:43  »  Anne      : Check
+║  18:25:44  »  McGyver   : Check
+║  18:25:45  »  ME Player : Check
+║  18:25:46  »  Mario     : Fold
+║  18:25:46  »  Betting Round: 4
+║  18:25:46  »  Anne      : Raise 4    
+║  18:25:46  »  McGyver   : Call
+║  18:25:48  »  ME Player : Call
+║  18:25:48  »  Anne      : Check
+║  18:25:48  »  ME Player won the pot!
+║  18:25:48  »  Table Pot: 212
+╚══════════════════════════════════════════════════
+╔══════════════════════════════════════════════════
+║ 13·04·2016
+║  18:25:48  »  #New Game#
+║  18:25:48  »     Stakes   
+║  18:25:48  »  Bank: ME Player
+║  18:25:48  »  Small Blind: 25
+║  18:25:48  »  Big Blind: 50
+║  18:25:48  »  Betting Round: 1
+║  18:25:48  »  McGyver   : Call

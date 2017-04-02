@@ -1,0 +1,55 @@
+#PokerPro16
+
+## Synopsis
+
+PokerPro16 is an implementation of the poker game Texas Hold'em, written in Java and uses the [JavaFX API](http://docs.oracle.com/javase/8/javafx/api/toc.htm).
+
+## Screenshots
+![Screenshot from 2016-05-11 20-13-35.png](https://bitbucket.org/repo/gqBGk8/images/2917548896-Screenshot%20from%202016-05-11%2020-13-35.png)
+## Running
+
+Download:
+* [Poker-sprint1.jar](https://bitbucket.org/tha056/inf112v16-g2/downloads/Poker-sprint1.jar)
+* [Poker-sprint2.jar](https://bitbucket.org/tha056/inf112v16-g2/downloads/Poker-sprint2.jar)
+* [Poker.jar](https://bitbucket.org/tha056/inf112v16-g2/downloads/Poker.jar)
+
+And run the jar the normal way
+
+## Using Gradle
+
+After cloning this repo, use the bundled `gradlew` scripts to use the gradle build system.
+
+    $ ./gradlew build # Build and run tests
+	$ ./gradlew run # Build and run game
+	$ ./gradlew jar # Generate a jar and put it in build/libs/
+	$ ./gradlew javadoc # Compile javadoc
+
+
+## Using Command line
+
+You can use the following command line options. These only work when executing a jar directly with `java -jar`.
+
+    --console: Start in console mode
+	--autostart: Bypass the main menu and start a game with four players
+	--nosound: Start the game with no sound
+	--master: Start a master server on port 8888/tcp
+
+## Contributors
+
+###The project was made possible by the following people:
+..* Zohar Malamant
+..* Åsmund Hammer
+..* Håkon Tjeldnes
+..* Petter Thorgersen
+..* Daniel Jensen
+..* Kjetil Kjørstad
+..* Andreas Ommundsen
+..* Håkon Knudsen
+..* Mikal Naustdal
+..* Runar Serigstad
+..* Svein Høgemo
+..* Cem Pedersen
+
+## License
+
+PokerPro16 is under the [MIT](https://opensource.org/licenses/MIT) license.

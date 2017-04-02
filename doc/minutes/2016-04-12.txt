@@ -1,0 +1,22 @@
+Minutes 12.04.2016. Kjetil Kjørstad
+All accounted for and present
+Meeting short as everybody is producing stuff for the moment.
+Only for clarifying status and tasks for today and tomorrow.
+
+
+1 - Network client: started work, need to make framework today, and push. Protocoll created (Cem & Kjetil)
+
+2 - No more code allowed after kl 14:00 13.04.2016
+
+3 - Design diagram: (someone) will meet at datalab 13:00 to finish this
+
+4 - GUI: reasonably OK for presentation (Haåkon)
+
+5 - Backend: running against old backend until new framework-code is ready (Zohar)
+
+6 - Logger: hook into old backend for now, copy to new later. Push lines to file-style logger
+
+7 - Documentation, everybody reads thru everyting until thursday.
+
+8 - Statistics: = logger. printing lines directly to game server.
+

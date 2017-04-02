@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.Pane?>
+<?import org.gruppe2.ui.javafx.ingame.*?>
+<?import org.gruppe2.ui.javafx.menu.HelperMenu?>
+<?import org.gruppe2.ui.javafx.menu.RightMenu?>
+<?import org.gruppe2.ui.javafx.PokerApplication?>
+<fx:root type="Pane" xmlns:fx="http://javafx.com/fxml"
+         styleClass="background" onMouseClicked="#onMouseClicked">
+    <fx:define>
+        <PokerApplication fx:factory="getRoot" fx:id="root"/>
+        <PokerApplication fx:factory="getApplication" fx:id="app"/>
+    </fx:define>
+
+
+    <ChatBox fx:id="chatBox"
+             layoutX="0.0"
+             layoutY="${root.height - chatBox.height}"
+             prefWidth="${app.widthScale * 300}"
+             prefHeight="${app.heightScale * chatBox.chatHeight}" />
+
+    <ChoiceBar fx:id="choiceBar"
+               layoutX="${chatBox.width}"
+               layoutY="${root.height - choiceBar.height}"
+               prefWidth="${root.width - chatBox.width}"
+               prefHeight="${app.scale * 24}"/>
+
+    <Table fx:id="table"
+           layoutX="${root.width / 2.0 - table.width / 2.0}"
+           layoutY="${root.height / 4.0 - table.height / 4.0}"
+           fitWidth="${root.width}"
+           fitHeight="${root.height - choiceBar.height}"/>
+
+    <ThisPlayerInfoBox fx:id="playerBox" visible="false"
+                       prefWidth="${app.widthScale * 240}"
+                       prefHeight="${app.heightScale * 64}"
+                       layoutX="${root.width / 2 - playerBox.width / 2}"
+                       layoutY="${root.height - choiceBar.height - playerBox.height*0.97}"/>
+
+    <HelperMenu
+                prefWidth="${root.width * 0.2}"/>
+
+    <RightMenu fx:id="rightMenu"
+               layoutX="${root.width - rightMenu.width}"
+               layoutY="0.0"/>
+
+    <PlayerCards fx:id="playerCards"
+                 maxHeight="${root.width * 0.2}"
+                 maxWidth="${root.height * 0.2}"
+                 layoutX="${root.width - playerCards.width*1.5}"
+                 layoutY="${root.height - playerCards.height*0.7}"/>
+
+
+</fx:root>

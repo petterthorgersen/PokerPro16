@@ -1,0 +1,50 @@
+Feedback INF112 oblig3 group2
+=============================
+
+# Clarifications
+* The grading is based on the latest archive version before March 16th, 9pm
+* Please find individual markings for the documentation, code and presentation below (with comments if needed)
+* Everyone in the group will receive the same score for this compulsory assignment (the group should divide the work in a self-organized way) 
+* However, if it becomes evident that only a few members are actively contributing to the project, we reserve the possibility to deduct points
+for team members that contribute very little.  
+
+# Documentation [45.5/50]
+* The use case text is fine but I think some of the details don't correspond to the current implementation (yet?); Also the alternatives to happy path should
+be extended
+* SSDs are fine, but the SSD for happy path different from singleplayer?
+* operation contracts look generally good but could the playerAction could be a specific one rather than generic
+* The Domain model looks very good including multiplicities and role names and has only small imperfections 
+(player hand of 5 cards -> discussed in class, ? at the
+card<->board relation)
+* It would be good if you could stick to either Norwegian or English (preferrably) as language for documentation (e.g. the Glossary)
+* the installation instructions should be updated (use of gridlew, etc.)
+
+# Code + build script [28.5/34]
+* build script: produces error when running build (with tests), executing the "run" target works though
+* code is generally well organized but the purpose of code in some files is at times difficult to understand
+
+# Project mangement [9/11]
+* minutes are generally good but could have a common format to keep track of things more easily (e.g. structure according to Doc, code with subtasks, general discussion, etc.)
+
+# presentation [5/5]
+* waitingForPlayers with project vision (good idea!)
+* Domain model - Players hand is just 2 cards, but the current score of 5 hypothetical cards could be displayed (in future iterations)
+* The game demonstration was good in general, but sometimes a bit fast (hard to follow)
+I think you discussed to intregate some sort of delay for the showdown and that is definitely a good idea!
+* some game mechanics need to be updated (minus chips?)
+
+# Extra [+2] 
+* extra: game can be run without GUI
+
+# general comments
+* in general the archive is well organized
+* but: consider cleaning up the files that are not needed anymore 
+- thanks to git we can always get them back (no need for "achive" or workfiles, etc.)
+
+# Total score: 90/100
+
+# Total score (2nd grader): 93.5/100
+
+# Average (final): 91.8/100
+
+

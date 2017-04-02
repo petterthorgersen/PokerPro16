@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.gruppe2.ui.javafx.menu.Credits?>
+<fx:root type="BorderPane" xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <StackPane alignment="CENTER" style="-fx-padding: 30px,0,0,0">
+            <ImageView fx:id="logo" preserveRatio="true">
+                <Image url="/images/ui/pokerWhite.png"/>
+            </ImageView>
+        </StackPane>
+    </top>
+    <left>
+
+    </left>
+    <center>
+        <VBox fx:id="vBox" alignment="CENTER" styleClass="vbox" spacing="10">
+            
+            <Button fx:id="online" text="Online" onAction="#goToLobby"/>
+            <Button fx:id="singlePlayer" text="Singleplayer" onAction="#goToSinglePlayer"/>
+            <Button fx:id="viewStatistics" text="View Statistics" onAction="#goToStatistics"/>
+            <Button fx:id="replay" text="Replay" onAction="#goToReplay"/>
+            <Button fx:id="settings" text="Settings" onAction="#goToSettings"/>
+            
+        </VBox>
+    </center>
+    <bottom>
+            <Credits/>
+    </bottom>
+</fx:root>
+
+	
+
+

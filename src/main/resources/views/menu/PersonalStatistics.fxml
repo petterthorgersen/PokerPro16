@@ -1,0 +1,36 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root type="GridPane" xmlns:fx="http://javafx.com/fxml">
+    
+
+    <Label text="Games Played:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Label fx:id="gamesPlayed" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label text="Games won:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <Label fx:id="gamesWon" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+    <Label text="Games lost:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <Label fx:id="gamesLost" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+    <Label text="Times folded:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+    <Label fx:id="gamesFolded" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+    <Label text="Times called:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+    <Label fx:id="timesCalled" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+    <Label text="Times checked:" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+    <Label fx:id="timesChecked" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+
+    <Label text="Times raised:" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+    <Label fx:id="timesRaised" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+
+    <Label text="Total bets:" GridPane.columnIndex="0" GridPane.rowIndex="8" />
+    <Label fx:id="totalBets" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+
+    <Label text="Total winnings:" GridPane.columnIndex="0" GridPane.rowIndex="9" />
+    <Label fx:id="totalWinnings" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+    
+   
+</fx:root>

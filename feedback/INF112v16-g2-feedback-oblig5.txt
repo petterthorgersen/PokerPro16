@@ -1,0 +1,71 @@
+INF112 programming project iteration 3 - Feedback group 2
+=========================================================
+Note: The following refers to archive version: d20cc96bf25d71034266ec7e356fa581e7a6c13e
+
+
+# User requirements specification [1/1]
+
+# Glossary [1/2]
+* could have been updated after the second sprint (terms for a network game, etc.)
+
+# Use Case Diagram [3/3]
+* has been updated. Note that the layout is usually slightly different.
+
+# Use Case specification (for Network Game) [6/6]
+* good use case text and extensions! (Discussion of the double role of Organizer/Player)
+
+# The communication diagram [10/10]
+* good!
+
+# Domain model [5.5/7]
+* SHowing the different parts of the system (backend, frontend, network) in the diagram is a good idea!
+* this shows nicely the communication between the different parts but makes the lower part a bit harder to read, too
+* you should leave out methods in the domain model (upper part)
+* some role names are missing in the upper part (frontend)
+
+# Design Model [12.5/14]
+* the design model is basically an extension of the domain model here
+* it contains the most important information on the classes
+* however, some important attributes (with types) could be added in the classes
+* also, for the messages between classes there should be information on what was exchanged (contents of messages)
+
+
+# Source code + documentation [29/31]
+* Javadoc was generated for all code - very good for an overview
+* the code is well organized and documented
+* the requested features for this sprint were implemented but some bugs remain to be fixed
+
+
+# Build script [1.5/2]
+* the build script takes a long time (~2m on my laptop) but compiles without errors
+
+
+# Unit tests [6/8]
+* there could be a few more test cases, (e.g. for the network game) but the main game logic was tested 
+(game AI vs AI, event-handling, showdown evaluation, Hand calculation)
+
+
+# Project management [4/7]
+* the sprint backlog is still in the old form (was disussed).
+* the minutes could be more frequent (also for "non-official" meetings), especially for the last sprint.
+* A retrospect for the last iteration was included.
+
+# Presentation [8/9]
+* the presentation was good overall (including the very nice game presentation).
+You thought of what to present and provided opportunities for the other attendants to interact. 
+You also discussed the major points we asked for.
+* Given how large your group is, you could have used even more time on discussing the deliverables and
+the group experience
+
+# Extra [5/5]
+* overall the game design, menus, soundtrack and user friendliness is very good, making it a nice game experience.
+
+
+
+---------------------------
+# Total score (1st marking): 92.5/100
+
+# Total score (2nd marking): 92/100 
+
+# Final score: 92.3/100
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.gruppe2.ui.javafx.ingame.ProgressBarCountDown?>
+<?import org.gruppe2.ui.javafx.PokerApplication?>
+<?import javafx.scene.layout.HBox?>
+<fx:root type="javafx.scene.layout.VBox" fx:id="this" styleClass="pane"
+         xmlns:fx="http://javafx.com/fxml"
+         onMouseClicked="#viewStatistic"
+         visible="false" onMouseMoved="#hover" onMouseExited="#noHover">
+
+    <fx:define>
+        <PokerApplication fx:factory="getRoot" fx:id="root"/>
+    </fx:define>
+
+    <ProgressBarCountDown fx:id="progressBar" visible="true" style="-fx-background-color: transparent"
+                          prefWidth="${this.width}"/>
+
+    <HBox alignment="CENTER" spacing="${root.width*0.01}">
+        <StackPane fx:id="imagePane" alignment="CENTER" maxHeight="${this.maxHeight}">
+            <ImageView fx:id="avatar" preserveRatio="true" fitHeight="${this.maxHeight}"/>
+            <ImageView fx:id="fold" preserveRatio="true" fitHeight="${this.maxHeight}" visible="false">
+                <Image url="/images/ui/folded.png"/>
+            </ImageView>
+            <Label fx:id="lastAction" visible="false" font="${this.font}"/>
+        </StackPane>
+        <VBox alignment="CENTER_LEFT" minWidth="${this.maxWidth * 0.3}" maxWidth="${this.maxWidth * 0.3}">
+            <Label fx:id="name" font="${this.font}"/>
+            <Label fx:id="bank" font="${this.font}"/>
+            <Label fx:id="bet" font="${this.font}"/>
+        </VBox>
+    </HBox>
+
+</fx:root>

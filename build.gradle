@@ -1,0 +1,29 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply from: file('gradle/javafx-plugin.gradle')
+
+project.sourceCompatibility = 1.8
+project.mainClassName = 'org.gruppe2.Main'
+
+run {
+    main = mainClassName
+}
+
+task runConsole(type: JavaExec, dependsOn: classes) {
+    args = ['--console']
+    main = mainClassName
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}

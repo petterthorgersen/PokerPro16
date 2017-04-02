@@ -1,0 +1,69 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\b\fs24 \cf0 Answers to questions from previous minute:
+\b0 \
+\
+-- What does 'game' and 'register' mean?\
+Register means that you register to games from the main menu.\
+\
+-- Add AI, organiser or player?\
+We can choose as we want to whether or not we can play against AI and players at the same time.\
+\
+-- Add TA stuff to User Req?\
+Doesn\'92t have to, but can be added as a non-functional requirement.\
+\
+-- Use case story for Spectator, Organiser and Online game?\
+Depends on implementation, could be put as alternate paths instead.\
+\
+
+\b Documentation of this minute:\
+
+\b0 \
+Changed from Ant to Gradle.\
+\
+Tested and made Gradle work for most of us.\
+Had a nice little Gradle presentation.\
+\
+We\'92ve agreed to start coding within next week (some began earlier this week).\
+\
+User requirements has been updated to meet the format requirements.\
+\
+
+\i Everyone writes their own tests for their own code.
+\i0 \
+\
+
+\b Front-end:
+\b0 \
+JavaFX / GUI / Controllers = H\'e5kon T, Kjetil, Petter T.\
+\
+
+\b Back-end:
+\b0 \
+Gameplay functionality = Andreas, H\'e5kon, Mikal, \'c5smund, Cem\
+Client/Server (Networking and connection) = H\'e5kon, Runar (may change)\
+\
+
+\b AI:\
+
+\b0 Daniel, Runar, Zohar, Svein\
+\
+
+\b Things we need to agree on:
+\b0 \
+Whom is host of the game?\
+What happens when a player leaves a game / table in progress?\
+\
+-
+\b Use Case Story
+\b0 \
+	\'97Update accordingly to new information (check answer to last question).\
+\
+-
+\b SSD
+\b0 \
+	\'97Update it to be less complicated ( it\'92s too difficult to read at first sight )}

@@ -1,0 +1,22 @@
+Hand: One full game, contains between 1 and 4 rounds. Ends when all but one player has folded or the River round is reached with more than one player remaining.
+Round: Preflop, Flop, Turn, River. Ends when all remaining players have called.
+Preflop: First betting round; Hole Cards dealt; No community cards dealt.
+Flop: Second betting round; The first 3 community cards and a burner card dealt.
+Turn/4th Street: Third betting round; One more burner and community card dealt.
+River/5th Street: Fourth and final betting round. One more burner and community card dealt. Showdown occurs when all remaining players call/check.
+Showdown: Players show their cards and best hand wins.
+Pot: The collected chips at the table during a hand.
+Button: Rotates left after each hand, signifies "dealer".
+Small Blind: Placed by the player to the left of the Dealer.
+Blinds: Forced bets that are put down before the hole cards are dealt.
+Big Blind: Should be roughly twice the size of the small blind. Placed by the player to the left of the small blind better.
+Buy-in: 100 times the Big Blind.
+Stakes: Values of the blinds.
+Hole Cards: The two cards dealt to each player.
+Chips: The in-game currency.
+
+Bet:	Current Big blind value.
+Fold:	Place no bet and discard the hole cards, must wait for another hand to play again.
+Call:	Place an amount that matches the current bet.
+Raise:	Raise the stakes by 2 times the current bet or more.
+Check:  Same as Call, but the player has already put the needed chips into the pot. Preflop big blind better.

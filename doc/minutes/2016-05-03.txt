@@ -1,0 +1,42 @@
+03.05.2016:
+
+-GUI:
+--Problems with GUI and network
+--More settings/fix old settings
+--Cache pictures when game starts
+
+-Networking working:
+--protocol is working, all information can be transferred
+
+-Logger:
+--Files are saved at the wrong location
+
+-User stories:
+--Take a look at user stories from 1st sprint. See if something is missing
+--Still missing some stories from this sprint(split pot, game clock, etc.)
+
+-Showdown evaluator:
+--Take in 7 cards
+--Find winner
+
+-Game clock:
+--Player will fold if the timer runs out
+
+-Bugs:
+--Add to issue tracker
+
+-Documentation:
+--Try to finish some of it before next week.
+
+Retrospect from sprint 2:
+-What went wrong during the sprint cycle?
+--> Focus on not pushing any critical code a few minutes before deadline(like sprint 1).
+-What went wrong during the sprint cycle?
+--> We didn't focus enough on deliverables. Need to organize this better
+--> The design model didn't contain enough information. Looked too much like a domain model.
+-What could we do differently to improve?
+--> Not wait until the last minutes before finishing the documentation
+--> Better JavaDoc on methods and classes
+
+End notes:
+-Pull before pushing!

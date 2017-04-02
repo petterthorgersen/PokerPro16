@@ -1,0 +1,15 @@
+org.gruppe2
+org.gruppe2.ai
+org.gruppe2.game
+org.gruppe2.game.calculation
+org.gruppe2.game.controller
+org.gruppe2.game.event
+org.gruppe2.game.helper
+org.gruppe2.game.model
+org.gruppe2.game.session
+org.gruppe2.network
+org.gruppe2.ui
+org.gruppe2.ui.console
+org.gruppe2.ui.javafx
+org.gruppe2.ui.javafx.ingame
+org.gruppe2.ui.javafx.menu

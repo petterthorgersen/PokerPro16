@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import org.gruppe2.ui.javafx.PokerApplication?>
+<fx:root type="VBox" fx:id="this" xmlns:fx="http://javafx.com/fxml">
+    <fx:define>
+        <PokerApplication fx:factory="getApplication" fx:id="app"/>
+    </fx:define>
+
+    <ScrollPane minHeight="${this.prefHeight - app.heightScale * 20}" fx:id="scrollPane" hbarPolicy="NEVER"
+                vbarPolicy="NEVER" style="-fx-background-color: transparent">
+        <GridPane fx:id="chatArea" hgap="12.0" vgap="5">
+            <columnConstraints>
+                <ColumnConstraints hgrow="NEVER" halignment="RIGHT"/>
+                <ColumnConstraints hgrow="NEVER" halignment="LEFT"/>
+            </columnConstraints>
+        </GridPane>
+    </ScrollPane>
+    <TextField font="${app.smallFont}" prefHeight="${app.heightScale * 20}"
+               fx:id="chatField"
+               onAction="#onChatAction"
+               styleClass="chatField"/>
+</fx:root>

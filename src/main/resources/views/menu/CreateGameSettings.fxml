@@ -1,0 +1,37 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import org.gruppe2.ui.javafx.PokerApplication?>
+<fx:root type="javafx.scene.layout.GridPane" xmlns:fx="http://javafx.com/fxml" fx:id="this"
+         vgap="${root.width*0.007}" hgap="${root.width*0.02}" alignment="CENTER">
+
+    <fx:define>
+        <PokerApplication fx:factory="getRoot" fx:id="root"/>
+        <PokerApplication fx:factory="getApplication" fx:id="app"/>
+    </fx:define>
+
+
+    <Label text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="0" font="${app.bigFont}"/>
+    <TextField fx:id="tableName" GridPane.columnIndex="1" GridPane.rowIndex="0" font="${app.bigFont}"/>
+
+    <Label text="Small blind:" GridPane.columnIndex="0" GridPane.rowIndex="1" font="${app.bigFont}"/>
+    <TextField fx:id="smallBlind" GridPane.columnIndex="1" GridPane.rowIndex="1" font="${app.bigFont}"/>
+
+    <Label text="Big blind" GridPane.columnIndex="0" GridPane.rowIndex="2" font="${app.bigFont}"/>
+    <TextField fx:id="bigBlind" GridPane.columnIndex="1" GridPane.rowIndex="2" font="${app.bigFont}"/>
+
+    <Label text="Start money:" GridPane.columnIndex="0" GridPane.rowIndex="3" font="${app.bigFont}"/>
+    <TextField fx:id="startMoney" GridPane.columnIndex="1" GridPane.rowIndex="3" font="${app.bigFont}"/>
+
+    <Label text="Min players:" GridPane.columnIndex="0" GridPane.rowIndex="4" font="${app.bigFont}"/>
+    <TextField fx:id="minPlayers" GridPane.columnIndex="1" GridPane.rowIndex="4" font="${app.bigFont}"/>
+
+    <Label text="Max players:" GridPane.columnIndex="0" GridPane.rowIndex="5" font="${app.bigFont}"/>
+    <TextField fx:id="maxPlayers" GridPane.columnIndex="1" GridPane.rowIndex="5" font="${app.bigFont}"/>
+
+    <Label text="Bot difficulty:" GridPane.columnIndex="0" GridPane.rowIndex="6" font="${app.bigFont}"/>
+    <ComboBox fx:id="botDiff" maxWidth="Infinity" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+
+    <Button onAction="#ok" text="OK" GridPane.columnIndex="0" GridPane.rowIndex="7" font="${app.bigFont}"/>
+    <Button onAction="#cancel" text="CANCEL" GridPane.columnIndex="1" GridPane.rowIndex="7" font="${app.bigFont}"/>
+
+</fx:root>

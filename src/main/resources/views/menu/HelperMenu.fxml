@@ -1,0 +1,21 @@
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Label?>
+<?import org.gruppe2.ui.javafx.PokerApplication?>
+<fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml"
+         stylesheets="/css/style.css" fx:id="rightMenu">
+
+    <fx:define>
+        <PokerApplication fx:factory="getRoot" fx:id="root"/>
+        <PokerApplication fx:factory="getApplication" fx:id="app"/>
+    </fx:define>
+
+    <ToggleButton fx:id="showMenu" onAction="#showMenu" styleClass="menuButton"
+                  style="-fx-background-image: url(/images/ui/cheatSheet.png)"/>
+    <ScrollPane fx:id="entirePane" width="${root.width}">
+        <VBox fx:id="innerBox" styleClass="rightMenu">
+            <Label text="PokerPro16 cheat sheet" fx:id="title" font="${app.bigFont}"/>
+        </VBox>
+    </ScrollPane>
+</fx:root>

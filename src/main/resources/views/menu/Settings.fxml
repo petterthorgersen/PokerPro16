@@ -1,0 +1,23 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import org.gruppe2.ui.javafx.PokerApplication?>
+<fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml" alignment="CENTER">
+	<fx:define>
+		<PokerApplication fx:factory="getRoot" fx:id="root"/>
+	</fx:define>
+	<VBox fx:id = "box" spacing="20" alignment="CENTER">
+		<HBox alignment="CENTER" spacing="20">
+			<Label fx:id="name" text="Name:"/>
+			<TextField fx:id="nameField" />
+
+		</HBox>
+		<HBox alignment="CENTER">
+			<Label text="Select an avatar:"/>
+		</HBox>
+		<ScrollPane fx:id="scrollPane" fitToWidth="true" fitToHeight="true">
+			<TilePane fx:id="avatarTiles" hgap="${root.width*0.007}" vgap="${root.height*0.007}">
+			</TilePane>
+		</ScrollPane>
+		<Button fx:id="apply" text="Apply" onAction="#apply"/>
+	</VBox>
+</fx:root>

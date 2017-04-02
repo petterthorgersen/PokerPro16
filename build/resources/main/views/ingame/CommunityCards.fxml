@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.image.ImageView?>
+<fx:root type="javafx.scene.layout.HBox" xmlns:fx="http://javafx.com/fxml" styleClass="communityCardsBox">
+    <ImageView fx:id="card0" />
+    <ImageView fx:id="card1" />
+</fx:root>
